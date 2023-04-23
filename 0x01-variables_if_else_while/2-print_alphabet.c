@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Prints all the alphabelts
+ * main - Prints the alphabets.
  *
  * Return: Always 0 (Success)
  */
@@ -13,6 +13,6 @@ int main(void)
 	{
 		putchar(alph[i]);
 	}
-	putchar(*\n);
+	putchar("\n");
 	return (0);
 }
