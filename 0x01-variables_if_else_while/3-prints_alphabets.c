@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Print alphabets in lowercase and upper case.
- *
+ * main - Entry point.
+ * 
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -13,14 +13,12 @@ int main(void)
 	b = 'a';
 	s = 'A';
         while
-		(b <= 'k')
-		{
+		(b <= 'k'){
 			 putchar(b);
 			 b++;
-		}
+		} 
 	while
-		(s <= 'k')
-		{
+		(s <= 'K'){
 			putchar(s);
 			s++;
 		}
