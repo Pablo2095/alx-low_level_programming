@@ -19,7 +19,7 @@ void print_line(int n)
 	{
 	for (p = 0; p < n; p++)
 	{
-	_puthcar(95);
+	_putchar(95);
 	}
 	_putchar('\n');
 	}
