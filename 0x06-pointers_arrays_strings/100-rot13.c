@@ -20,7 +20,6 @@ char *rot13(char *s)
 			if (s[p] == data1[b])
 			{
 				s[p] = datarot[p];
-
 				break;
 			}
 		}
