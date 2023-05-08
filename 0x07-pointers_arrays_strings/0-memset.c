@@ -5,13 +5,13 @@
  * @n: Number of bytes to be changed
  * @s: The start of address to be filled
  * @b: Number of bytes to changed
- * Return: pointer to the memory area s
+ * Return: the changed value for the n bytes
  */
 char *_memset(char *s, char b, unsigned int n)
 {
 	int p = 0;
 
-	for (;n > 0; p++)
+	for (; n > 0; p++)
 	{
 		s[p] = b;
 		n--;
